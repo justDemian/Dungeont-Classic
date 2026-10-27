@@ -8,7 +8,16 @@ _Una obra nacida de DungeonSlayers escrito por Christian Kenning_
 - [Introducción](#introducción)
 - [Instalación](#instalación)
 - [Uso](#uso)
-- [Contenido](##Contenido)
+- [Contenido](#contenido)
+  + [Creación de Personaje](#creación-de-personaje)
+  + [Mecánicas](#mecánicas)
+  + [Hechizos](#hechizos)
+  + [Equipo](#equipo)
+  + [Game Master](#game-master)
+  + [Bestiario](#bestiario)
+- [Arquiteco de Campañas](#arquitecto-de-campañas)
+  + [Creación de Mazmorras](#creación-de-mazmorras)
+- [Comunidad](#comunidad)
 
 # Introducción
 Los juegos de rol necesitan un Game Master, esta app te permite jugar por tu cuenta, crear tus propias campañas y jugarlas, con todas las herramientas que presta.
@@ -24,36 +33,34 @@ La app cuenta con una campaña principal, pero cuenta con las herramientas de cr
 
 Prepárate para una aventura en la palma de tu mano, consulta manuales, crea personajes, crea NPCs, crea tus campañas y dale vida a esas mazmorras. Sé el arquitecto de las mazmorras y diseña tu destino.
 
-### Creación de Personaje
+## Creación de Personaje
 Crea tu personaje en base a las reglas del manual (con algunas modificaciones, minúsculas denotadas con un _example<sup>m</sup>_ donde la "_m_" simboliza el MOD o sea una modificación del manual, esto puede ser configurado en ajustes, en el modo "_manual-cored_"
 
 Ten un listado de los Talentos y ten una creación de personaje muy cómoda.
 
-### Mecánicas
+## Mecánicas
 La idea de la aplicación es gamificar aún más la rutina del Rol, dándole más vidilla a los dados, los chequeos, la narración, entre otros aspectos, utilizando texto enriquecido y mejorando la experiencia de usuario.
 
 A pesar de ser un combate por turnos, se sentirá vivo gracias al sistema de animaciones, donde cada turno tiene un tiempo de reacción, por lo que al momento de decidir se ralentiza el tiempo, pero no se detiene, lo que hace que a pesar de tener una alta Iniciativa, puedas quedar detrás del ataque enemigo.
 
 También los daños y bloqueos tienen sus respectivas animaciones.
 
-### Hechizos
+## Hechizos
 No te preocupes, al ocupar colores, los elementos serán más identificables, por ende tu compendio de hechizos será más legible.
 
-### Equipo
+## Equipo
 El loot, lo más importante y la razón secreta de cada aventurero que entra a una mazmorra.
 
 Aquí el Loot tendrá su propio pixel art. Puedes reutilizar los diseños que ofrece la campaña principal o puedes utilizar Imágenes propias.
 
-### Game Master
+## Game Master
 No tienes por qué preocuparte de cómo se dirige tu campaña, el Game Master se encarga de relatarla, en el modo de Arquitecto de Mazmorras, puedes programar diferentes diálogos para que le puedas dar una personalidad propia al Game Master de tu Campaña.
 
-### Bestiario
+## Bestiario
 Qué es una mazmorra sin sus bestias? Y las bestias sin su bestiario? Descubre todas las criaturas que habitan la tierra de la Desgravedad.
 
-### Creación de Mazmorras
-Lo bueno es que al ser un juego de la antigua escuela, las mazmorras son 2d con la posibilidad de múltiples pisos, pero 2d al fin de cuentas, elige zonas de creación, zonas de misión, dale el color al mundo utilizando baldosas. Hacer las mazmorras en hojas cuadriculadas, quedó en el pasado.
 
-## Arquitecto de Campañas
+# Arquitecto de Campañas
 > [!Note]
 > Esta característica está en desarrollo, ocupar bajo el riesgo de futuros cambios a la estructura de formato de los archivos.
 
@@ -61,7 +68,10 @@ Crea tus campañas, crea los acertijos, los pueblos, el loot, dale un lienzo en 
 
 Diseña a tu Game Master, pre-programa sus respuestas (_Aquí no ocupamos IA_)
 
-## Comunidad
+## Creación de Mazmorras
+Lo bueno es que al ser un juego de la antigua escuela, las mazmorras son 2d con la posibilidad de múltiples pisos, pero 2d al fin de cuentas, elige zonas de creación, zonas de misión, dale el color al mundo utilizando baldosas. Hacer las mazmorras en hojas cuadriculadas, quedó en el pasado.
+
+# Comunidad
 > [!Note]
 > Esta característica aún ni se escribe, pero se tiene en cuenta para un futuro.
 
