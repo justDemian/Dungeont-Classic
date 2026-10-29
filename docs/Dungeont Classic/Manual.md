@@ -1,0 +1,1 @@
+Las reglas del manual son bastante simples.
