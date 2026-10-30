@@ -17,5 +17,23 @@ Este atributo describe la salud y la talla de personaje.
 
 **Resistencia _[RE]_**: Describe la resistencia natural de tu personaje, o sea, su capacidad pulmonar y la cantidad de daño soportable.
 
+### AGILIDAD _[AGI]_
+Este atributo mide las capacidades atléticas del personaje.
+
+**Reflejos _[RF]_**: Aporta valor a la evasión y pensamiento rápido
+
+**Destreza _[DE]_**: Mide la coordinación mano ojo y la precisión de los ataques a distancia
+
+### MENTE _[MEN]_
+Mide la inteligencia del personaje y su capacidad de influenciar a otros.
+
+**Razón _[RA]_**: Los personajes con **RA** alta son astutos, deduciendo cosas y pueden ser poderosos hechiceros
+
+**Aura _[AU]_**: Apariencia y carisma de un personaje, además sirve como medida de talento mágico
+
+## Valores de Combate
+Los valores de combate se calculan con tus valores bases y el equipo que llevas encima. Cuando el equipo o tus valores bases cambian, debes recalcular tus valores de combate.
+
+
 
 
