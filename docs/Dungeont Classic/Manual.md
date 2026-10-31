@@ -34,6 +34,10 @@ Mide la inteligencia del personaje y su capacidad de influenciar a otros.
 ## Valores de Combate
 Los valores de combate se calculan con tus valores bases y el equipo que llevas encima. Cuando el equipo o tus valores bases cambian, debes recalcular tus valores de combate.
 
+### Puntos de Golpe _[FIS + RE + 10]_
+La salud del personaje, puntos con los que cuenta antes de quedar inconsciente.
+
+### 
 
 
 
