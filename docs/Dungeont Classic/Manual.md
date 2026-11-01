@@ -7,6 +7,10 @@ Existen 3 razas, cada una con sus atributos:
 * **Humano**: 1 punto de talento extra
 * **Enano**: Visón corta, Longevo (Vejez lenta)
 
+### Selección de Clase
+
+Debes elegir una de las tres clases disponibles (Guerrero, Explorador, Hechicero), Además los hechiceros deben elegir si son Brujos, Sanador, Mago. Esto influye en el tipo de hechizos a los que tiene acceso.
+
 ## Atributos y Cualidades
 Cada ser existente posee 3 atributos los cuales describen su forma de ser y de interactuar con todo lo demás. Los atributos contienen 2 cualidades cada uno, siendo estos los extremos que ofrece cada atributo.
 
@@ -54,4 +58,6 @@ Los hechizos se lanzan con este valor, que sube con el bono de magia _[BM]_ de t
 
 ### Hechizos dirigidos _[MEN + DE - VA]_
 Importante para lanzar hechizos dirigidos. Aumenta con el bono de magia (BM) de tu hechizo activo, pero disminuye con el valor de armadura _[VA]_
+
+
 
