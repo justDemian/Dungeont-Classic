@@ -37,7 +37,21 @@ Los valores de combate se calculan con tus valores bases y el equipo que llevas 
 ### Puntos de Golpe _[FIS + RE + 10]_
 La salud del personaje, puntos con los que cuenta antes de quedar inconsciente.
 
-### 
+### Defensa _[FIS + RE + VA]_
+Es la cantidad de disminución de daño físico, producido por armas cuerpo a cuerpo, daño no penetrante y magia cinética. Afectado por Valor de Armadura _[VA]_
 
+### Ataque melé _[FIS + FU + BA]_
+Daño puro provocable al atacar con armas cuerpo a cuerpo o los puños. Afectado por Bono de Arma _[BA]_
 
+### Ataque a distancia _[AGI + DE + BA]_
+Daño máximo que se puede provocar al usar un arma a larga distancia. Afectado por Bono de Arma _[BA]_
+
+### Esquivar _[AGI + RE - VA]_
+Funciona como defensa pero, de forma probabilística, se reduce el daño filtrado a la defensa.
+
+### Hechicería _[MEN + AU - VA]_
+Los hechizos se lanzan con este valor, que sube con el bono de magia _[BM]_ de tu hechizo activo, pero baja con el valor de armadura _[VA]_
+
+### Hechizos dirigidos _[MEN + DE - VA]_
+Importante para lanzar hechizos dirigidos. Aumenta con el bono de magia (BM) de tu hechizo activo, pero disminuye con el valor de armadura _[VA]_
 
