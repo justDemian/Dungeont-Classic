@@ -9,7 +9,9 @@ Existen 3 razas, cada una con sus atributos:
 
 ### Selección de Clase
 
-Debes elegir una de las tres clases disponibles (Guerrero, Explorador, Hechicero), Además los hechiceros deben elegir si son Brujos, Sanador, Mago. Esto influye en el tipo de hechizos a los que tiene acceso.
+Debes elegir una de las tres clases disponibles (Guerrero, Explorador, Hechicero), Además los hechiceros deben elegir si son Brujos, Sanador, Mago. Esto influye en el tipo de hechizos a los que tiene acceso. 
+
+La mezcla de raza/clase puede estar limitada en cada campaña.
 
 ## Atributos y Cualidades
 Cada ser existente posee 3 atributos los cuales describen su forma de ser y de interactuar con todo lo demás. Los atributos contienen 2 cualidades cada uno, siendo estos los extremos que ofrece cada atributo.
@@ -60,4 +62,48 @@ Los hechizos se lanzan con este valor, que sube con el bono de magia _[BM]_ de t
 Importante para lanzar hechizos dirigidos. Aumenta con el bono de magia (BM) de tu hechizo activo, pero disminuye con el valor de armadura _[VA]_
 
 
+## Asignación de Valores
+Ahora tienes 18 puntos par distribuir entre tus tres atributos, **Físico**, **Agilidad** y **Mente**. Siguiendo las siguientes reglas:
+
+* Cada Atributo debe tener un valor entre 2 y 10
+* sólo pueden ser valores _Pares_
+
+### Cualidades
+Para las cualidades se asigna dividiendo el atributo correspondiente en dos y distribuyendo el resultado entre ambas cualidades (posible dejarlas en 0).
+
+### Bonos
+Cada personaje tiene su bonificación basado en raza y clase: 
+
+**Elfo** : Reflejos, Destreza o Aura +1
+**Humano** : Cualidad a elección +1
+**Enano** : Fuerza, Resistencia, o Destreza +1
+
+**Guerrero** : Fuerza o Resistencia +1
+**Explorador** : Reflejos o Destreza +1
+**Hechicero** : Razón o Aura +1
+
+### Hechizo Inicial
+Los hechiceros ganan un hechizo nivel uno de la [[Lista de Hechizos]]
+
+### Equipo
+Todos los personajes comienzan con ropa simple, yesca, y pedernal, un pellejo de agua, una manta y una mochila o morral.
+
+También ganan 10 piezas de oro, que pueden gastar en más [[Equipo]]
+
+### Velocidad
+La velocidad de movimiento de tu personaje es igual a la mitad de su agilidad +1 e indica la cantidad de metros que puede moverse en cada turno.
+
+### Experiencia
+Umbrales de Experiencia para personajes en Nivel y Puntos de Experiencia (PE)
+
+	nv. 1  : 0 PE       nv. 11 : 2700 PE
+	nv. 2  : 50 PE      nv. 12 : 3500 PE
+	nv. 3  : 100 PE     nv. 13 : 4300 PE
+	nv. 4  : 200 PE     nv. 14 : 5300 PE
+	nv. 5  : 300 PE     nv. 15 : 6300 PE
+	nv. 6  : 500 PE     nv. 16 : 7600 PE
+	nv. 7  : 700 PE     nv. 17 : 8900 PE
+	nv. 8  : 1100 PE    nv. 18 : 10500 PE
+	nv. 9  : 1500 PE    nv. 19 : 12100 PE
+	nv. 10 : 2100 PE    nv. 20 : 14000 PE
 
