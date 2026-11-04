@@ -94,7 +94,7 @@ También ganan 10 piezas de oro, que pueden gastar en más [[Equipo]]
 La velocidad de movimiento de tu personaje es igual a la mitad de su agilidad +1 e indica la cantidad de metros que puede moverse en cada turno.
 
 ### Experiencia
-Umbrales de Experiencia para personajes en Nivel y Puntos de Experiencia (PE)
+Umbrales de Experiencia para personajes en Nivel y Puntos de Experiencia (PE). Cuando un personaje sube de nivel gana 2 puntos de aprendizaje y un punto de talento. Los hechiceros ganan acceso a nuevos hechizos.
 
 	nv. 1  : 0 PE       nv. 11 : 2700 PE
 	nv. 2  : 50 PE      nv. 12 : 3500 PE
@@ -107,3 +107,5 @@ Umbrales de Experiencia para personajes en Nivel y Puntos de Experiencia (PE)
 	nv. 9  : 1500 PE    nv. 19 : 12100 PE
 	nv. 10 : 2100 PE    nv. 20 : 14000 PE
 
+### Puntos de Aprendizaje
+Puedes usar los 2 puntos de aprendizaje que obtienes al subir de nivel para subir cualidades y puntos de golpe. El costo es diferente para cada clase. A veces será necesario guardar puntos hasta el siguiente nivel para poder subir lo que deseas:
