@@ -4,3 +4,5 @@ Player:
 > FIS : int
 > AGI : int
 > MEN : int 
+
+Los demás atributos se calcularán en base a los atributos base.
