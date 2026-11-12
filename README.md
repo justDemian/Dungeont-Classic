@@ -15,9 +15,6 @@ _Una obra nacida de DungeonSlayers escrito por Christian Kenning_
   + [Equipo](#equipo)
   + [Game Master](#game-master)
   + [Bestiario](#bestiario)
-- [Arquiteco de Campañas](#arquitecto-de-campañas)
-  + [Creación de Mazmorras](#creación-de-mazmorras)
-- [Comunidad](#comunidad)
 
 # Introducción
 Los juegos de rol necesitan un Game Master, esta app te permite jugar por tu cuenta, crear tus propias campañas y jugarlas, con todas las herramientas que presta.
@@ -58,22 +55,5 @@ No tienes por qué preocuparte de cómo se dirige tu campaña, el Game Master se
 
 ## Bestiario
 Qué es una mazmorra sin sus bestias? Y las bestias sin su bestiario? Descubre todas las criaturas que habitan la tierra de la Desgravedad.
-
-
-# Arquitecto de Campañas
-> [!Note]
-> Esta característica está en desarrollo, ocupar bajo el riesgo de futuros cambios a la estructura de formato de los archivos.
-
-Crea tus campañas, crea los acertijos, los pueblos, el loot, dale un lienzo en forma de calabozo a la creatividad de tu mente.
-
-Diseña a tu Game Master, pre-programa sus respuestas (_Aquí no ocupamos IA_)
-
-## Creación de Mazmorras
-Lo bueno es que al ser un juego de la antigua escuela, las mazmorras son 2d con la posibilidad de múltiples pisos, pero 2d al fin de cuentas, elige zonas de creación, zonas de misión, dale el color al mundo utilizando baldosas. Hacer las mazmorras en hojas cuadriculadas, quedó en el pasado.
-
-# Comunidad
-> [!Note]
-> Esta característica aún ni se escribe, pero se tiene en cuenta para un futuro.
-
 
 
