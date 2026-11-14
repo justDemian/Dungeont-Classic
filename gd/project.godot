@@ -11,11 +11,14 @@ config_version=5
 [application]
 
 config/name="Dungeont_Classic"
+run/main_scene="uid://uplvj1olbpxv"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
 
 [display]
 
+window/size/viewport_width=504
+window/size/viewport_height=896
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
