@@ -1,3 +1,61 @@
 [gd_scene format=3 uid="uid://uplvj1olbpxv"]
 
+[ext_resource type="FontFile" uid="uid://3psq47468elu" path="res://res/fonts/Alkhemikal.ttf" id="1_o5qli"]
+
 [node name="Main" type="Node2D" unique_id=715191439]
+
+[node name="Screen" type="Control" parent="." unique_id=1561424762]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 504.0
+offset_bottom = 896.0
+
+[node name="title_label" type="Label" parent="Screen" unique_id=1933452314]
+layout_mode = 0
+offset_left = 39.5
+offset_top = 150.0
+offset_right = 464.5
+offset_bottom = 230.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 16
+theme_override_fonts/font = ExtResource("1_o5qli")
+theme_override_font_sizes/font_size = 80
+text = "The Dungeon't"
+metadata/_edit_use_anchors_ = true
+
+[node name="upper_title_label" type="Label" parent="Screen" unique_id=891184853]
+layout_mode = 0
+offset_left = 211.0
+offset_top = 146.0
+offset_right = 423.0
+offset_bottom = 178.0
+theme_override_fonts/font = ExtResource("1_o5qli")
+theme_override_font_sizes/font_size = 28
+text = "Dungeons Slayers"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="resume_adventure_button" type="Button" parent="Screen" unique_id=1061283269]
+layout_mode = 0
+offset_left = 126.0
+offset_top = 532.0
+offset_right = 378.0
+offset_bottom = 580.0
+text = "Continuar"
+
+[node name="new_adventure_button" type="Button" parent="Screen" unique_id=579230507]
+layout_mode = 0
+offset_left = 126.0
+offset_top = 603.0
+offset_right = 378.0
+offset_bottom = 653.0
+text = "Comenzar Aventura"
+
+[node name="settings" type="Button" parent="Screen" unique_id=254272718]
+layout_mode = 0
+offset_left = 376.0
+offset_top = 13.0
+offset_right = 492.0
+offset_bottom = 67.0
+text = "Configuración"
