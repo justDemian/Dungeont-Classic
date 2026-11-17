@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://uplvj1olbpxv"]
 
 [ext_resource type="FontFile" uid="uid://3psq47468elu" path="res://res/fonts/Alkhemikal.ttf" id="1_o5qli"]
+[ext_resource type="Texture2D" uid="uid://dpo7iiyctalh7" path="res://res/assets/sheets.png" id="2_0wfyh"]
 
 [node name="Main" type="Node2D" unique_id=715191439]
 
@@ -70,10 +71,11 @@ offset_top = 96.0
 offset_right = 477.0
 offset_bottom = 896.0
 
-[node name="ColorRect" type="ColorRect" parent="screen/new_adventure_menu" unique_id=523988946]
+[node name="ColorRect" type="TextureRect" parent="screen/new_adventure_menu" unique_id=1459366932]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+texture = ExtResource("2_0wfyh")
