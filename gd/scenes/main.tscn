@@ -2,6 +2,7 @@
 
 [ext_resource type="FontFile" uid="uid://3psq47468elu" path="res://res/fonts/Alkhemikal.ttf" id="1_o5qli"]
 [ext_resource type="Texture2D" uid="uid://dpo7iiyctalh7" path="res://res/assets/sheets.png" id="2_0wfyh"]
+[ext_resource type="Texture2D" uid="uid://ce3aktxusg2l7" path="res://res/assets/go_back.png" id="3_sugp2"]
 
 [node name="Main" type="Node2D" unique_id=715191439]
 
@@ -112,3 +113,4 @@ offset_left = 320.0
 offset_top = 25.0
 offset_right = 420.0
 offset_bottom = 65.0
+texture_normal = ExtResource("3_sugp2")
