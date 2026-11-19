@@ -11,11 +11,13 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 504.0
 offset_bottom = 896.0
+metadata/_edit_use_anchors_ = true
 
 [node name="main_menu" type="Control" parent="screen" unique_id=761775465]
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+metadata/_edit_use_anchors_ = true
 
 [node name="title_label" type="Label" parent="screen/main_menu" unique_id=1933452314]
 layout_mode = 0
@@ -28,6 +30,7 @@ theme_override_constants/outline_size = 16
 theme_override_fonts/font = ExtResource("1_o5qli")
 theme_override_font_sizes/font_size = 80
 text = "The Dungeon't"
+metadata/_edit_use_anchors_ = true
 
 [node name="upper_title_label" type="Label" parent="screen/main_menu" unique_id=891184853]
 layout_mode = 0
@@ -40,6 +43,7 @@ theme_override_font_sizes/font_size = 28
 text = "Dungeons Slayers"
 horizontal_alignment = 1
 vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
 
 [node name="resume_adventure_button" type="Button" parent="screen/main_menu" unique_id=1061283269]
 layout_mode = 0
@@ -48,6 +52,7 @@ offset_top = 532.0
 offset_right = 378.0
 offset_bottom = 580.0
 text = "Continuar"
+metadata/_edit_use_anchors_ = true
 
 [node name="new_adventure_button" type="Button" parent="screen/main_menu" unique_id=579230507]
 layout_mode = 0
@@ -56,6 +61,7 @@ offset_top = 603.0
 offset_right = 378.0
 offset_bottom = 653.0
 text = "Comenzar Aventura"
+metadata/_edit_use_anchors_ = true
 
 [node name="settings" type="Button" parent="screen/main_menu" unique_id=254272718]
 layout_mode = 0
@@ -64,15 +70,19 @@ offset_top = 13.0
 offset_right = 492.0
 offset_bottom = 67.0
 text = "Configuración"
+metadata/_edit_use_anchors_ = true
 
 [node name="new_adventure_menu" type="Control" parent="screen" unique_id=1276213142]
-anchors_preset = 0
+layout_mode = 1
+anchor_top = 0.03794643
+anchor_bottom = 0.03794643
 offset_left = 27.0
 offset_top = 96.0
 offset_right = 477.0
 offset_bottom = 896.0
+metadata/_edit_use_anchors_ = true
 
-[node name="TextureRect" type="TextureRect" parent="screen/new_adventure_menu" unique_id=1459366932]
+[node name="new_adventure_menu_bg" type="TextureRect" parent="screen/new_adventure_menu" unique_id=1459366932]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -80,17 +90,28 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_0wfyh")
+metadata/_edit_use_anchors_ = true
 
-[node name="Label" type="Label" parent="screen/new_adventure_menu" unique_id=1398298356]
+[node name="go_back_button" type="TextureButton" parent="screen/new_adventure_menu" unique_id=975737997]
+layout_mode = 0
+offset_left = 320.0
+offset_top = 25.0
+offset_right = 420.0
+offset_bottom = 65.0
+texture_normal = ExtResource("3_sugp2")
+metadata/_edit_use_anchors_ = true
+
+[node name="label_name" type="Label" parent="screen/new_adventure_menu" unique_id=1398298356]
 layout_mode = 0
 offset_left = 25.0
 offset_top = 40.0
 offset_right = 225.0
 offset_bottom = 90.0
-theme_override_colors/font_color = Color(0.30692267, 0.3069227, 0.3069227, 1)
+theme_override_colors/font_color = Color(0.1254902, 0.1254902, 0.1254902, 1)
 theme_override_fonts/font = ExtResource("1_o5qli")
 theme_override_font_sizes/font_size = 30
 text = "Nombre "
+metadata/_edit_use_anchors_ = true
 
 [node name="textInput_name" type="TextEdit" parent="screen/new_adventure_menu" unique_id=1119076770]
 layout_mode = 0
@@ -106,11 +127,29 @@ placeholder_text = "Nombre del Personaje"
 context_menu_enabled = false
 emoji_menu_enabled = false
 middle_mouse_paste_enabled = false
+metadata/_edit_use_anchors_ = true
 
-[node name="TextureButton" type="TextureButton" parent="screen/new_adventure_menu" unique_id=975737997]
+[node name="label_race" type="Label" parent="screen/new_adventure_menu" unique_id=1969925241]
 layout_mode = 0
-offset_left = 320.0
-offset_top = 25.0
-offset_right = 420.0
-offset_bottom = 65.0
-texture_normal = ExtResource("3_sugp2")
+offset_left = 25.0
+offset_top = 140.0
+offset_right = 225.0
+offset_bottom = 172.0
+theme_override_colors/font_color = Color(0.1254902, 0.1254902, 0.1254902, 1)
+theme_override_fonts/font = ExtResource("1_o5qli")
+theme_override_font_sizes/font_size = 32
+text = "Raza y Clase"
+
+[node name="label_race_desc" type="Label" parent="screen/new_adventure_menu" unique_id=228806228]
+layout_mode = 0
+offset_left = 35.0
+offset_top = 180.0
+offset_right = 421.0
+offset_bottom = 297.0
+theme_override_colors/font_color = Color(0.30692267, 0.3069227, 0.3069227, 1)
+theme_override_fonts/font = ExtResource("1_o5qli")
+theme_override_font_sizes/font_size = 26
+text = "Ahora debes elegir la raza del
+personaje, y la clase que jugarás, esto 
+describirá como se desenvolverá tu
+partida"
